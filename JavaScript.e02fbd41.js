@@ -738,7 +738,7 @@ const renderTaskList = (tasks)=>{
         tasklist += `
       <li class="TaskList__taskContent${task.isCompleted ? " TaskList__taskContent--isActive" : ""}" >
           <div class='TaskList__checkbox' tabindex="0" role="button">
-            <img class='TaskList__checkboxImage' src="icon-basket.7c7fd953.svg" alt="checkmark" />
+            <img class='TaskList__checkboxImage' src="icon-check.svg" alt="checkmark" />
           </div>
           <div class='TaskList__valueContent'>
             <p class='TaskList__value'>
